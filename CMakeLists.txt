@@ -3,4 +3,4 @@ project(Ping)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Ping main.cpp readwrite.h readwrite.cpp streamop.h streamop.cpp)
+add_executable(Ping main.cpp streamop.h streamop.cpp message.h message.cpp streamio.h streamio.cpp)
