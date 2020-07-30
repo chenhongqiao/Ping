@@ -1,6 +1,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <string>
+#include <asio.hpp>
 
 int create_connection(const char *srv_ip, const int srv_port) {
     int sock = 0;
